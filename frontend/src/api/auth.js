@@ -1,0 +1,1 @@
+import api from "./client"; export const login = (d)=>api.post("/auth/login", d);
